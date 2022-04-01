@@ -1,0 +1,22 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p:hover {
+    margin-left: 50px;
+    background-color: blueviolet
+}
+
+p {
+    background-color:darkred;
+    transition: margin-left 2s, background-color 2s;
+    width: 100%;
+}
+
+li {
+    transition: list-style-type 2s;
+}
+
+li:hover {
+    list-style-type: square;
+}
